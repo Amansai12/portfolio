@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { DotIcon } from "lucide-react";
 import Skill from "./Skill";
@@ -9,11 +9,7 @@ import { motion, useInView } from "framer-motion";
 function About() {
    const ref = useRef(null);
   const isInView = useInView(ref, { once: false });
-  useEffect(()=>{
-    if(isInView){
-        //alert("You are viewing the About section!");
-    }
-  },[isInView])
+
   const data = [
     { title: "React", percentage: 90 },
     { title: "C++", percentage: 90 },

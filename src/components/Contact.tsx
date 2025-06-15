@@ -1,6 +1,6 @@
 import React from 'react'
 import MaxWidthWrapper from './MaxWidthWrapper'
-import { Mail, Phone, MapPin, Send, DotIcon, LocationEdit, LocateFixedIcon } from 'lucide-react'
+import { Mail, Phone,DotIcon, LocateFixedIcon } from 'lucide-react'
 
 function Contact() {
   return (

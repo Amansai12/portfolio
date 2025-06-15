@@ -1,6 +1,5 @@
 "use client"
 import { Github, Link, Linkedin } from 'lucide-react'
-import Image from 'next/image'
 import React from 'react'
 
 interface ProjectCardProps {

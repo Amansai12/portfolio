@@ -1,5 +1,5 @@
 import React from 'react'
-import MaxWidthWrapper from './MaxWidthWrapper'
+
 
 function Footer() {
   return (

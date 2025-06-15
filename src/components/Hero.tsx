@@ -1,9 +1,8 @@
 "use client"
 import React, { useRef } from 'react'
 import MaxWidthWrapper from './MaxWidthWrapper'
-import Navbar from './Navbar'
 import { Github, Linkedin, Twitter } from 'lucide-react'
-import { Typewriter } from 'react-simple-typewriter'
+
 import { motion, useInView } from 'framer-motion' 
 
 function Hero() {
