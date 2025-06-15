@@ -13,14 +13,14 @@ function Achievements() {
         //alert("You are viewing the About section!");
     }
   },[isInView])
-  const data = [
-    { title: "React", percentage: 90 },
-    { title: "C++", percentage: 90 },
-    { title: "NextJs", percentage: 60 },
-    { title: "NodeJS", percentage: 90 },
-    { title: "PostgreSQL", percentage: 70 },
-    { title: "MongoDB", percentage: 60 },
-  ];
+  // const data = [
+  //   { title: "React", percentage: 90 },
+  //   { title: "C++", percentage: 90 },
+  //   { title: "NextJs", percentage: 60 },
+  //   { title: "NodeJS", percentage: 90 },
+  //   { title: "PostgreSQL", percentage: 70 },
+  //   { title: "MongoDB", percentage: 60 },
+  // ];
   return (
     <MaxWidthWrapper>
       <motion.div 

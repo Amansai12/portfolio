@@ -14,7 +14,7 @@ interface FormData {
 interface ApiResponse {
   success: boolean
   message: string
-  data?: any
+  data?: String
 }
 
 function Addproject() {

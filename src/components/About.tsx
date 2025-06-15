@@ -49,11 +49,11 @@ function About() {
           className="w-full max-w-[700px] ">
             <h1 className="font-semibold text-2xl">Hi there I'm Amansai</h1>
             <p className="text-[13px] my-3">
-              I’m a dedicated full stack developer with a strong command over
+              Im a dedicated full stack developer with a strong command over
               building modern, end-to-end web applications. I work confidently
               across the stack—from crafting seamless user experiences with
               React and Next.js, to developing robust backend systems with
-              Node.js, Express, and databases like PostgreSQL and MongoDB. I’m
+              Node.js, Express, and databases like PostgreSQL and MongoDB. Im
               experienced in designing scalable architectures using REST APIs,
               microservices, and message brokers like RabbitMQ and Kafka. I
               specialize in building real-time features with WebSockets,
