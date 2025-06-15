@@ -45,7 +45,7 @@ function Navbar() {
             
             {navItems.map((item, index) => (
               <a
-                key={item.name}
+                key={index}
                 href={item.href}
                 className='group relative text-white hover:text-gray-300 transition-colors duration-300 py-2'
               >

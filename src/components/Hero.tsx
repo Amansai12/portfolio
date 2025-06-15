@@ -35,7 +35,7 @@ function Hero() {
             {/* Main heading */}
             <div className='mb-6'>
               <h1 className='text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight mb-4'>
-                Hi, I'm{' '}
+                Hi, Im{' '}
                 <span className='text-gray-500 relative'>
                   {/* <Typewriter typeSpeed={150} words={['Amansai','Full Stack Dev','Problem Solver','Software Developer']} loop={true} cursor={true} cursorBlinking={true} /> */}
                   Amansai

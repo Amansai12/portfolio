@@ -47,7 +47,7 @@ function About() {
       animate={isInView ?{ opacity: 1, x: 0 } : {}}
       transition={{ duration: 0.7 ,ease: "easeInOut"}}
           className="w-full max-w-[700px] ">
-            <h1 className="font-semibold text-2xl">Hi there I'm Amansai</h1>
+            <h1 className="font-semibold text-2xl">Hi there Im Amansai</h1>
             <p className="text-[13px] my-3">
               Im a dedicated full stack developer with a strong command over
               building modern, end-to-end web applications. I work confidently
