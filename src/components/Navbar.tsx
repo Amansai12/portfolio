@@ -94,7 +94,7 @@ function Navbar() {
             <div className='flex flex-col gap-1'>
               {navItems.map((item, index) => (
                 <a
-                  key={item.name}
+                  key={index}
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
                   className='group flex items-center justify-between py-3 px-4 text-white hover:bg-white/10 transition-all duration-300 rounded'
@@ -113,7 +113,7 @@ function Navbar() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className='block w-full text-center py-3 bg-white text-black font-medium hover:bg-gray-200 transition-colors duration-300'
                 >
-                  Let's Talk
+                  Lets Talk
                 </a>
               </div>
             </div>
